@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+#courses p b {
+  position: absolute;
+  right: 30px;
+  width: 100px;
+  color: #000;
+  text-align: right;
+}
+#courses p:hover {
+  background-color: #52b3d9;
+  color: #fff;
+}
+#courses p.active {
+  color: #fff;
+  background-color: #446cb3;
+}
+#courses p.active b {
+  color: #fff;
+}
+#total {
+  background: #3fc380 !important;
+  cursor: default !important;
+  padding-top: 10px !important;
+}
